@@ -7,6 +7,121 @@
         <link rel="stylesheet" href="./dist/output.css" />
     </head>
     <body>
-        <h1 class="text-2xl font-bold text-blue-500">My Text</h1>
+        <main class="container md:container lg:container">
+            <!-- Hero section -->
+            <section
+                class="flex py-10 flex-col md:flex-row gap-10 items-center justify-between">
+                <div
+                    class="w-full flex flex-col md:block justify-center md:w-3/4">
+                    <h1
+                        class="text-2xl lg:leading-snug text-center md:text-left w-full lg:w-4/5 md:text-4xl lg:text-5xl font-bold">
+                        It's good tea time at The Tea House
+                    </h1>
+                    <p
+                        class="font-normal text-gray-500 text-center md:text-left text-base py-4 w-full lg:w-7/12">
+                        Tea and Botanical Solutions Supplier Give Optimum
+                        Satisfaction To Your Taste Buds.
+                    </p>
+                    <button
+                        type="button"
+                        class="py-3 px-4 mx-auto inline-flex justify-center items-center gap-2 rounded-md border-none font-semibold bg-gradient-to-r from-orange-400 to-red-500 text-white hover:bg-gradient-to-r hover:from-red-500 hover:to-orange-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800">
+                        Explore More
+                        <svg class="w-2.5 h-auto" width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1 7C0.447715 7 -3.73832e-07 7.44771 -3.49691e-07 8C-3.2555e-07 8.55228 0.447715 9 1 9L13.0858 9L7.79289 14.2929C7.40237 14.6834 7.40237 15.3166 7.79289 15.7071C8.18342 16.0976 8.81658 16.0976 9.20711 15.7071L16.0303 8.88388C16.5185 8.39573 16.5185 7.60427 16.0303 7.11612L9.20711 0.292893C8.81658 -0.0976318 8.18342 -0.0976318 7.79289 0.292893C7.40237 0.683417 7.40237 1.31658 7.79289 1.70711L13.0858 7L1 7Z" fill="currentColor"/>
+                          </svg>
+                </div>
+                <div>
+                    <img src="./images//banner.png" alt="" />
+                </div>
+            </section>
+
+            <!-- Featured section -->
+            <h2 class="text-center w-full pt-20 md:w-4/5 mx-auto text-3xl font-bold">Our Featured Products</h2>
+            <p class="font-normal text-gray-500 pt-3 w-full md:w-4/5 lg:w-3/5 mx-auto  text-base text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <div class="grid py-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+                <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                    <div class="bg-slate-50 p-4">
+                        <img class="w-1/2 mx-auto h-auto rounded-t-xl" src="./images/tea-2.png" alt="Image Description">
+                    </div>
+                    
+                    <div class="p-4 md:p-5 text-center">
+                      <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                        Milk Tea
+                      </h3>
+                      <p class="mt-1 text-gray-500 dark:text-gray-400">
+                        Creamer could be replaced by fresh milk
+                      </p>
+                    </div>
+                  </div>
+                <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                    <div class="bg-slate-50 p-4">
+                        <img class="w-1/2 mx-auto h-auto rounded-t-xl" src="./images/tea-1.png" alt="Image Description">
+                    </div>
+                    
+                    <div class="p-4 md:p-5 text-center">
+                      <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                        Black Tea
+                      </h3>
+                      <p class="mt-1 text-gray-500 dark:text-gray-400">
+                        Creamer could be replaced by fresh milk
+                      </p>
+                    </div>
+                  </div>
+                <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                    <div class="bg-slate-50 p-4">
+                        <img class="w-1/2 mx-auto h-auto rounded-t-xl" src="./images/tea-3.png" alt="Image Description">
+                    </div>
+                    
+                    <div class="p-4 md:p-5 text-center">
+                      <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                        Lemon Tea
+                      </h3>
+                      <p class="mt-1 text-gray-500 dark:text-gray-400">
+                        Creamer could be replaced by fresh milk
+                      </p>
+                    </div>
+                  </div>
+                <div class="flex flex-col bg-white border shadow-sm rounded-xl dark:bg-gray-800 dark:border-gray-700 dark:shadow-slate-700/[.7]">
+                    <div class="bg-slate-50 p-4">
+                        <img class="w-1/2 mx-auto h-auto rounded-t-xl" src="./images/tea-4.png" alt="Image Description">
+                    </div>
+                    
+                    <div class="p-4 md:p-5 text-center">
+                      <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+                        Green Tea
+                      </h3>
+                      <p class="mt-1 text-gray-800 dark:text-gray-400">
+                        Creamer could be replaced by fresh milk
+                      </p>
+                    </div>
+                  </div>
+            </div>
+
+            <!-- Presented tea -->
+            <div class="flex py-10 h-fit flex-col md:flex-row gap-10 items-center justify-between">
+                <div class="grid grid-cols-2 grid-rows-3 gap-7">
+                    <div><img src="./images/1.png" alt=""></div>
+                    <div class="row-span-2 bg-orange-50 rounded-xl p-6 overflow-hidden"><img class="w-fit mx-auto" src="./images/fresh-1.png" alt=""></div>
+                    <div class="bg-green-50 rounded-xl row-span-2 p-6 overflow-hidden"><img class="mx-auto w-fit" src="./images/fresh-2.png" alt=""></div>
+                    <div><img src="./images/2.png" alt=""></div>
+                </div>
+                <div class="w-full md:w-4/5 lg:w-1/2">
+                    <h2 class="lg:text-4xl md:text-2xl text-xl font-bold">Great Tea, Freshly <br> Presented</h2>
+                    <p class="font-normal text-base py-4 text-gray-500">
+                        The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.
+                    </p>
+                    <h2 class="text-lg md:text-xl font-bold">Unique Taste</h2>
+                    <p class="md:w-11/12 text-gray-500">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                    <h2 class="text-lg md:text-xl py-4 font-bold">Premium Quality</h2>
+                    <p class="md:w-11/12 text-gray-500">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                </div>
+            </div>
+        </main>
+
+        <!-- Preline UI -->
+        <script
+            src="https://kit.fontawesome.com/6908033352.js"
+            crossorigin="anonymous"></script>
+        <script src="./node_modules/preline/dist/preline.js"></script>
     </body>
 </html>
